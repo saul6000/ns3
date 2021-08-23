@@ -1,0 +1,8 @@
+https://www.nsnam.org/releases/ns-3-32/
+tar xvjf ns-allinone-3.33.tar.bz2 
+chmod +rx ns3_Dependencias.sh
+./ns3_Dependencias.sh
+git clone https://gitlab.com/nsnam/bake
+./bake.py check
+./waf configure --disable-werror --enable-example --enable-test
+https://signetlabdei.github.io/lorawan-docs/html/complete-network-example_8cc_source.html
